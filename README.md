@@ -4,7 +4,7 @@ My solutions to this years [Advent of Code](https://adventofcode.com) challenge 
 
 #### Content
 
-- [x] [Day 1: Calorie Counting](https://adventofcode.com/2022/day/1) [`solution`](day-01.swift)
+- [x] [Day 1: Calorie Counting](https://adventofcode.com/2022/day/1) [`solution`](day-01.swift) ★★
 
 #### Usage
 
@@ -14,8 +14,8 @@ $ swift day-01.swift
 ```
 Output:
 ```
---- Day 1: Sonar Sweep ---
-Solution: 1521
+--- Day 1: Calorie Counting ---
+Solution: 66306
 --- Part Two ---
-Solution: 1543
+Solution: 195292
 ```
