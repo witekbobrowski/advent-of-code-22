@@ -16,8 +16,8 @@ private func predictedScore(using strategyGuide: String) -> Int {
     strategyGuide.enumerateLines { line, _ in
         let opponent = ["A": 1, "B": 2, "C": 3][line.first!, default: 0]
         let me = ["X": 1, "Y": 2, "Z": 3][line.last!, default: 0]
-        score += me
-        score += me == opponent ? 3 : (me == opponent % 3 + 1 ? 6 : 0)
+
+        score += me + [opponent: 3, opponent % 3 + 1: 6][me, default: 0]
     }
     return score
 }
@@ -33,8 +33,8 @@ private func correctlyPredictedScore(using strategyGuide: String) -> Int {
     strategyGuide.enumerateLines { line, _ in
         let opponent = ["A": 1, "B": 2, "C": 3][line.first!, default: 0]
         let result = ["X": 0, "Y": 3, "Z": 6][line.last!, default: 0]
-        score += result
-        score += result == 3 ? opponent : (result == 6 ? opponent % 3 + 1 : (opponent + 1) % 3 + 1)
+
+        score += result + [0: (opponent + 1) % 3 + 1, 6: opponent % 3 + 1][result, default: opponent]
     }
     return score
 }
