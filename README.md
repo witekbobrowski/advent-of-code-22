@@ -6,7 +6,7 @@ My solutions to this years [Advent of Code](https://adventofcode.com) challenge 
 
 - [x] [Day 1: Calorie Counting](https://adventofcode.com/2022/day/1) [`solution`](day-01.swift) ★★
 - [x] [Day 2: Rock Paper Scissors](https://adventofcode.com/2022/day/2) [`solution`](day-02.swift) ★★
-- [x] [Day 3: --](https://adventofcode.com/2022/day/3) ☆☆
+- [x] [Day 3: Rucksack Reorganization](https://adventofcode.com/2022/day/3) [`solution`](day-03.swift) ★★
 - [x] [Day 4: --](https://adventofcode.com/2022/day/4) ☆☆
 - [x] [Day 5: --](https://adventofcode.com/2022/day/5) ☆☆
 - [x] [Day 6: --](https://adventofcode.com/2022/day/6) ☆☆
