@@ -7,28 +7,28 @@ My solutions to this years [Advent of Code](https://adventofcode.com) challenge 
 - [x] [Day 1: Calorie Counting](https://adventofcode.com/2022/day/1) [`solution`](day-01.swift) ★★
 - [x] [Day 2: Rock Paper Scissors](https://adventofcode.com/2022/day/2) [`solution`](day-02.swift) ★★
 - [x] [Day 3: Rucksack Reorganization](https://adventofcode.com/2022/day/3) [`solution`](day-03.swift) ★★
-- [x] [Day 4: --](https://adventofcode.com/2022/day/4) ☆☆
-- [x] [Day 5: --](https://adventofcode.com/2022/day/5) ☆☆
-- [x] [Day 6: --](https://adventofcode.com/2022/day/6) ☆☆
-- [x] [Day 7: --](https://adventofcode.com/2022/day/7) ☆☆
-- [x] [Day 8: --](https://adventofcode.com/2022/day/8) ☆☆
-- [x] [Day 9: --](https://adventofcode.com/2022/day/9) ☆☆
-- [x] [Day 10: --](https://adventofcode.com/2022/day/10) ☆☆
-- [x] [Day 11: --](https://adventofcode.com/2022/day/11) ☆☆
-- [x] [Day 12: --](https://adventofcode.com/2022/day/12) ☆☆
-- [x] [Day 13: --](https://adventofcode.com/2022/day/13) ☆☆
-- [x] [Day 14: --](https://adventofcode.com/2022/day/14) ☆☆
-- [x] [Day 15: --](https://adventofcode.com/2022/day/15) ☆☆
-- [x] [Day 16: --](https://adventofcode.com/2022/day/16) ☆☆
-- [x] [Day 17: --](https://adventofcode.com/2022/day/17) ☆☆
-- [x] [Day 18: --](https://adventofcode.com/2022/day/18) ☆☆
-- [x] [Day 19: --](https://adventofcode.com/2022/day/19) ☆☆
-- [x] [Day 20: --](https://adventofcode.com/2022/day/20) ☆☆
-- [x] [Day 21: --](https://adventofcode.com/2022/day/21) ☆☆
-- [x] [Day 22: --](https://adventofcode.com/2022/day/22) ☆☆
-- [x] [Day 23: --](https://adventofcode.com/2022/day/23) ☆☆
-- [x] [Day 24: --](https://adventofcode.com/2022/day/24) ☆☆
-- [x] [Day 25: --](https://adventofcode.com/2022/day/25) ☆☆
+- [x] [Day 4: Camp Cleanup](https://adventofcode.com/2022/day/4) [`solution`](day-04.swift) ★★
+- [ ] [Day 5: --](https://adventofcode.com/2022/day/5) ☆☆
+- [ ] [Day 6: --](https://adventofcode.com/2022/day/6) ☆☆
+- [ ] [Day 7: --](https://adventofcode.com/2022/day/7) ☆☆
+- [ ] [Day 8: --](https://adventofcode.com/2022/day/8) ☆☆
+- [ ] [Day 9: --](https://adventofcode.com/2022/day/9) ☆☆
+- [ ] [Day 10: --](https://adventofcode.com/2022/day/10) ☆☆
+- [ ] [Day 11: --](https://adventofcode.com/2022/day/11) ☆☆
+- [ ] [Day 12: --](https://adventofcode.com/2022/day/12) ☆☆
+- [ ] [Day 13: --](https://adventofcode.com/2022/day/13) ☆☆
+- [ ] [Day 14: --](https://adventofcode.com/2022/day/14) ☆☆
+- [ ] [Day 15: --](https://adventofcode.com/2022/day/15) ☆☆
+- [ ] [Day 16: --](https://adventofcode.com/2022/day/16) ☆☆
+- [ ] [Day 17: --](https://adventofcode.com/2022/day/17) ☆☆
+- [ ] [Day 18: --](https://adventofcode.com/2022/day/18) ☆☆
+- [ ] [Day 19: --](https://adventofcode.com/2022/day/19) ☆☆
+- [ ] [Day 20: --](https://adventofcode.com/2022/day/20) ☆☆
+- [ ] [Day 21: --](https://adventofcode.com/2022/day/21) ☆☆
+- [ ] [Day 22: --](https://adventofcode.com/2022/day/22) ☆☆
+- [ ] [Day 23: --](https://adventofcode.com/2022/day/23) ☆☆
+- [ ] [Day 24: --](https://adventofcode.com/2022/day/24) ☆☆
+- [ ] [Day 25: --](https://adventofcode.com/2022/day/25) ☆☆
 
 #### Usage
 
