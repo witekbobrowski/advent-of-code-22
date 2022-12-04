@@ -36,10 +36,9 @@ private func totalPriorityGrouped(from rucksacks: String) -> Int {
     rucksacks.enumerateLines { line, _ in
         group.append(Set(line))
         guard group.count == 3 else { return }
-        group[0].intersection(group[1]).intersection(group[2]).forEach {
-            priority += Int($0.asciiValue ?? 0) - ($0.isLowercase ? 96 : 38)
-        }
-        group = []
+        let badge = group.removeLast()
+            .intersection(group.removeLast()).intersection(group.removeLast()).first!
+        priority += Int(badge.asciiValue ?? 0) - (badge.isLowercase ? 96 : 38)
     }
     return priority
 }
