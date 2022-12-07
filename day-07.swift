@@ -33,8 +33,9 @@ private func traverseFilesystem(_ terminalOutput: String) -> [String: Int] {
 print("--- Day 7: No Space Left On Device ---")
 
 private func disposableSpace(_ terminalOutput: String) -> Int {
-    let sizes = traverseFilesystem(terminalOutput)
-    return sizes.filter { $1 <= 100000 }.values.reduce(0, +)
+    traverseFilesystem(terminalOutput)
+        .filter { $1 <= 100000 }.values
+        .reduce(0, +)
 }
 
 print("Solution:", disposableSpace(terminalOutput))
@@ -46,7 +47,7 @@ print("--- Part Two ---")
 private func disposableSpaceWithRequirements(_ terminalOutput: String) -> Int {
     let sizes = traverseFilesystem(terminalOutput)
     return sizes
-        .filter { (70000000 - sizes["/"]!) + $1 > 30000000 }
+        .filter { (40000000 - sizes["/"]!) + $1 > 0 }
         .min { $0.1 < $1.1 }?.1 ?? 0
 }
 
