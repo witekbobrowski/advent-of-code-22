@@ -9,7 +9,7 @@ My solutions to this years [Advent of Code](https://adventofcode.com) challenge 
 - ★★ [Day 3: Rucksack Reorganization](https://adventofcode.com/2022/day/3) [`solution`](day-03.swift)
 - ★★ [Day 4: Camp Cleanup](https://adventofcode.com/2022/day/4) [`solution`](day-04.swift)
 - ★★ [Day 5: Supply Stacks](https://adventofcode.com/2022/day/5) [`solution`](day-05.swift)
-- ☆☆ [Day 6: --](https://adventofcode.com/2022/day/6)
+- ★★ [Day 6: Tuning Trouble](https://adventofcode.com/2022/day/6) [`solution`](day-06.swift)
 - ☆☆ [Day 7: --](https://adventofcode.com/2022/day/7)
 - ☆☆ [Day 8: --](https://adventofcode.com/2022/day/8)
 - ☆☆ [Day 9: --](https://adventofcode.com/2022/day/9)
