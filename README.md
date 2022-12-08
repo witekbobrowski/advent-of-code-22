@@ -11,7 +11,7 @@ My solutions to this years [Advent of Code](https://adventofcode.com) challenge 
 - ★★ [Day 5: Supply Stacks](https://adventofcode.com/2022/day/5) [`solution`](day-05.swift)
 - ★★ [Day 6: Tuning Trouble](https://adventofcode.com/2022/day/6) [`solution`](day-06.swift)
 - ★★ [Day 7: No Space Left On Device](https://adventofcode.com/2022/day/7) [`solution`](day-07.swift)
-- ☆☆ [Day 8: --](https://adventofcode.com/2022/day/8)
+- ★★ [Day 8: Treetop Tree House](https://adventofcode.com/2022/day/8) [`solution`](day-08.swift)
 - ☆☆ [Day 9: --](https://adventofcode.com/2022/day/9)
 - ☆☆ [Day 10: --](https://adventofcode.com/2022/day/10)
 - ☆☆ [Day 11: --](https://adventofcode.com/2022/day/11)
