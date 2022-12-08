@@ -21,19 +21,16 @@ print("--- Day 8: Treetop Tree House ---")
 
 private func visibleTrees(_ map: String) -> Int {
     let map = convert(map)
-    var visibility = Array(
-        repeating: Array(repeating: false, count: map.count), count: map.count
-    )
 
     // South-East sweep
     var north = map.first! // Highest trees visible from the north
-    map.indices.forEach { row in
+    let visibility = map.indices.map { row in
         var west = map[row].first! // Highest tree visible from the west
-        map[row].indices.forEach { col in
-            if row == 0 || col == 0 { return visibility[row][col] = true }
-            visibility[row][col] = map[row][col] > north[col] || map[row][col] > west
-            north[col] = max(map[row][col], north[col])
-            west = max(map[row][col], west)
+        return map[row].indices.map { col in
+            if row == 0 || col == 0 { return true }
+            defer { north[col] = max(map[row][col], north[col]) }
+            defer { west = max(map[row][col], west) }
+            return map[row][col] > north[col] || map[row][col] > west
         }
     }
 
@@ -43,9 +40,9 @@ private func visibleTrees(_ map: String) -> Int {
         var east = map[row].last! // Highest tree visible from the east
         return map[row].indices.reversed().reduce(count) { count, col in
             if row == map.count - 1 || col == map.count - 1 { return count + 1 }
+            defer { south[col] = max(map[row][col], south[col]) }
+            defer { east = max(map[row][col], east) }
             let isVisible = visibility[row][col] || map[row][col] > south[col] || map[row][col] > east
-            south[col] = max(map[row][col], south[col])
-            east = max(map[row][col], east)
             return isVisible ? count + 1 : count
         }
     }
